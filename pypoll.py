@@ -20,8 +20,7 @@ with open(file_to_load,newline='') as election_data:
     for row in file_reader:
         # count the votes
         total_votes += 1
-        if candidate_name[] = candidate_name[]
-
+        row[2] = row[2]
     
     
     
