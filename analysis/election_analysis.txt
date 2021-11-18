@@ -9,7 +9,6 @@ Arapahoe: 6.7% (24801)
 ----------------------------
 Largest Country turnount :  Denver
 ----------------------------
- Raymon Anthony Doane: 3.1% (11606)
  winner: Diana DeGette
  Winning Vote Count: 272892
  Winning Percentage: 73.8%
