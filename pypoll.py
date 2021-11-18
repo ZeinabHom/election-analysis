@@ -63,13 +63,19 @@ with open(file_to_save, "w") as txt_file:
     txt_file.write("----------------------------\n")
 
     # make empty list for percentages
+
     max_percentage= []
     #calculate vote percentage of each candidate
     for x in candidate_votes:
        vote_percentage = candidate_votes[x] / total_votes *100
+       print(vote_percentage)
     # find max vote percentage
        max_percentage.append(vote_percentage)
+       
+       txt_file.write(f" {x} {vote_percentage:.1f}% ({candidate_votes[x]})\n")
+    txt_file.write("----------------------------\n")
 
+    #txt_file.write(f"(str{candidate_name[x]}) : ({candidate_votes[candidate_name[x]]})")
     # write results in  text file 
     # txt_file.write(f" {x}: {vote_percentage:.1f}% ({candidate_votes[x]})\n")
     txt_file.write(f" winner: {winner_name}\n")
@@ -78,3 +84,4 @@ with open(file_to_save, "w") as txt_file:
     txt_file.write("----------------------------\n")
 
    
+       # txt_file.write(f"(str{candidate_name[0]}) : {vote_percentage[0]} ({candidate_votes[candidate_name[0]]})")
