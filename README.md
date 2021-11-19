@@ -32,6 +32,7 @@ Moreover, for loop and if function were used to calculate and prepare the lists 
 	 candidate_votes[row[2]] +=  1
 	 
 Max() syntax was used to calculate maximum votes of candidate and county
+
 			winner_name  =  max(candidate_votes, key=candidate_votes.get)
 			winner_vote=  max(candidate_votes.values())
 			county_winner  =  max(county_name, key=county_votes.get)
@@ -56,6 +57,7 @@ Write() syntax was used to show our final result in txt file and the percentage 
 		 for  x  in  candidate_votes:
 			    vote_percentage  =  candidate_votes[x] /  total_votes  *100
 			    max_percentage.append(vote_percentage)
+			    
       txt_file.write(f" {x}  {vote_percentage:.1f}% ({candidate_votes[x]})\n")
       txt_file.write("----------------------------\n")
       txt_file.write(f" winner: {winner_name}\n")
