@@ -1,9 +1,10 @@
 # Election Result
 In this project, election result was calculated based on candidate & county. Python was used to analyze data.The below steps was followed to find our result;
 The original data file was excel so first of all we converted our excel file to csv format as well as the import statement was used to access to default modules of csv  and  os.
+
 		 -  import  csv
-		 - 	import  os
-		 - file_to_load=  os.path.join ('Resources','election_results.csv')
+		 - import  os
+	- file_to_load=  os.path.join ('Resources','election_results.csv')
 After that we made one txt file to display our final result.
 		 - file_to_save  =  os.path.join("analysis", "election_analysis.txt")
 We opened our data in csv format and used reader function to read our data with below code
