@@ -69,7 +69,8 @@ Write() syntax was used to show our final result in txt file and the percentage 
 
 ## Analysis resualt
 
-There are three counties (efferson, Denver and Arapahoe) and three candidates (Charles Casper Stockham, Diana DeGette, Raymon Anthony Doane). Total vote is 369,711. Denver has maximum county votes 306,055. Winner is Diana DeGette with votes 272,892 (73.8% of votes). 
+There are three counties (efferson, Denver and Arapahoe) and three candidates (Charles Casper Stockham, Diana DeGette, Raymon Anthony Doane) in this election. Total votes are 369,711.
+Denver is a county with  maximum  votes about 306,055 and  Winner of this election is Diana DeGette with maximum votes about 272,892 (73.8% of votes). 
 
 
 	 
