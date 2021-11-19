@@ -1,5 +1,7 @@
 # Election Result
-In this project, election result was calculated based on candidate & county. Python was used to analyze data.The below steps was followed to find our result;
+In this project, election result was calculated based on candidate & county. Python was used to analyze data.
+
+## Technical Structure 
 The original data file was excel so first of all we converted our excel file to csv format as well as the import statement was used to access to default modules of csv  and  os.
 
 		 - import  csv
