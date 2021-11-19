@@ -66,3 +66,10 @@ Write() syntax was used to show our final result in txt file and the percentage 
       txt_file.write(f" Winning Vote Count: {winner_vote}\n")
       txt_file.write(f" Winning Percentage: {max(max_percentage):.1f}%\n")
       txt_file.write("----------------------------\n")
+
+## Analysis resualt
+
+There are three counties (efferson, Denver and Arapahoe) and three candidates (Charles Casper Stockham, Diana DeGette, Raymon Anthony Doane). Total vote is 369,711. Denver has maximum county votes 306,055. Winner is Diana DeGette with votes 272,892 (73.8% of votes). 
+
+
+	 
