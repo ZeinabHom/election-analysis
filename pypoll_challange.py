@@ -42,7 +42,6 @@ with open(file_to_load,newline='') as election_data:
                  
     #  find county winner with max votes from county_vote dictionary
     county_winner = max(county_name, key=county_votes.get)
-    print(county_winner)
  
 
  # open a text file with write mode
